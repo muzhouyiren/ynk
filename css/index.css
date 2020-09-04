@@ -1,0 +1,802 @@
+.font-20 {
+    font-size: 20px;
+}
+
+.font-28 {
+    font-size: 22px;
+}
+
+.font-54 {
+    font-size: 54px;
+}
+
+.mt-120 {
+    margin-top: 1.6rem;
+}
+
+
+/* banner swiper */
+
+.banner {
+    position: relative;
+}
+
+.banner-swiper {
+    position: relative;
+}
+
+.banner-swiper .container {
+    position: absolute;
+    /* bottom: .573333rem; */
+    bottom: .86rem;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    background: transparent;
+    height: .48rem;
+    z-index: 20;
+}
+
+.banner-swiper .container .row .swiper-pagination {
+    width: 100%;
+}
+
+.banner-swiper .swiper-pagination-bullet {
+    width: 25%;
+    height: .48rem;
+    display: inline-block;
+    border-radius: 0;
+    background: transparent;
+    opacity: 1;
+    border-bottom: 1px solid #D8D8D8;
+    font-size: .213333rem;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: .293333rem;
+}
+
+.banner-swiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0
+}
+
+.banner-swiper .swiper-pagination-bullet-active {
+    border-bottom: .026667rem solid #FF943A;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* 对应的主题 风格名称 */
+
+.section-content {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    background: #E8EBED;
+    pointer-events: auto;
+    overflow: hidden;
+    /* height: 100vh; */
+}
+
+.y-section {
+    -webkit-box-flex: 0;
+    flex: none;
+    background: #E8EBED;
+}
+
+.ynk-theme {
+    /* height: 100vh; */
+    padding-top: 1rem;
+    padding-bottom: 1.15rem;
+    background: #E8EBED;
+}
+
+.theme-intro {
+    padding-left: 1.32rem;
+}
+
+.ynk-theme .unique {
+    padding-top: .95rem;
+    height: auto;
+}
+
+.look-btn {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 360px;
+    height: 90px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgba(19, 42, 136, 1);
+    /* line-height: 24px; */
+    background: transparent;
+    border: 1px solid rgba(19, 42, 136, 1);
+    z-index: 1;
+}
+
+.look-btn:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: rgba(19, 42, 136, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+.look-btn:hover:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.look-btn:hover {
+    color: #fff;
+}
+
+.look-btn:hover .arrow-img {
+    background: url(../images/index/arrow-white.png) no-repeat 100% 100% /cover;
+}
+
+.look-btn .arrow-img {
+    width: 82px;
+    height: 22px;
+    margin-left: 50px;
+    background: url(../images/index/arrow.png) no-repeat 100% 100% /cover;
+}
+
+.unique {
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 36px;
+    font-family: Helvetica;
+    color: rgba(19, 42, 136, 1);
+    line-height: 43px;
+}
+
+.title {
+    font-size: 1.066667rem;
+    font-family: AlibabaPuHuiTi-Bold, AlibabaPuHuiTi;
+    font-weight: bold;
+    color: rgba(232, 235, 237, 1);
+    -webkit-text-stroke: 1px rgba(19, 42, 136, 1);
+    text-stroke: 1px rgba(19, 42, 136, 1);
+}
+
+.section {
+    padding-top: 63px;
+    text-align: center;
+}
+
+.section .title {
+    font-size: 80px;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 1);
+    line-height: 96px;
+    -webkit-text-stroke: 1px rgba(19, 42, 136, 1);
+    text-stroke: 1px rgba(19, 42, 136, 1);
+}
+
+.des {
+    margin: .66rem 0 .92rem;
+    font-size: 24px;
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    color: rgba(19, 42, 136, 1);
+    line-height: .33rem;
+}
+
+.cz-theme {
+    height: 100vh;
+    background-color: #e8ebed;
+    position: relative;
+    overflow: hidden
+}
+
+.cz-theme.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    width: 100%
+}
+
+.cz-theme.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%
+}
+
+.cz-theme .wrap {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.cz-theme .item {
+    float: left
+}
+
+.theme-cutter {
+    background-color: #e8ebed;
+    position: relative
+}
+
+
+/* 关于我们 */
+
+.aboutus-full {
+    margin-top: 40px;
+}
+
+.about-video {
+    position: relative;
+    margin-bottom: .80rem;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.video-modal {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+.video-modal .modal-main {
+    width: 100%;
+    background-color: #000;
+}
+
+.video-modal video {
+    width: 100%;
+    height: 100%;
+}
+
+.video-modal .video-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/common/close.png) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.aboutus .intro {
+    font-size: 16px;
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    color: rgba(17, 17, 17, 1);
+    line-height: 22px;
+}
+
+.aboutus .intro-des {
+    margin: .4rem 0 1rem;
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    color: rgba(17, 17, 17, 1);
+    line-height: 74px;
+}
+
+.aboutus-more {
+    margin-bottom: 1.2rem;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    color: rgba(19, 42, 136, 1);
+    line-height: 27px;
+    min-width: 200px;
+}
+
+.aboutus-more:hover::after {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.aboutus-more::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -30px;
+    width: 82px;
+    height: 22px;
+    background: url(../images/index/arrow.png) no-repeat 100% 100% / cover;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+
+/* 公司活动 */
+
+.activity {
+    margin: .9rem 0 1.95rem;
+}
+
+.activity .activity-left {
+    padding-right: 97px;
+    padding-top: 16px;
+}
+
+.activity .activity-left .name {
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    /* color: rgba(19, 42, 136, 1);
+    line-height: 74px; */
+    /* font-size: 54px; */
+    font-family: Helvetica;
+    color: rgba(19, 42, 136, 1);
+    line-height: 65px;
+}
+
+.activity .activity-left .des {
+    /* margin: .3rem 0 .4rem; */
+    /* font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    color: rgba(19, 42, 136, 1);
+    line-height: 36px; */
+    margin: 30px 0 40px;
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    line-height: 36px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgba(19, 42, 136, 1);
+    line-height: 36px;
+}
+
+.activity .activity-left .date,
+.activity .activity-left .place {
+    font-family: AlibabaPuHuiTi-Light, AlibabaPuHuiTi;
+    font-weight: 300;
+    /* color: rgba(19, 42, 136, 1);
+    line-height: 27px; */
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgba(19, 42, 136, 1);
+    line-height: 24px;
+    /* margin-bottom: 16px; */
+}
+
+.activity .activity-left .place {
+    color: rgba(19, 42, 136, 1);
+}
+
+
+/* 
+.activity .activity-left .look-btn {
+    margin-top: .4rem;
+} */
+
+
+/* 手机 */
+
+@media screen and (max-width: 767px) {
+    .banner-swiper .container .row .swiper-pagination {
+        width: 100%;
+        left: 0;
+        bottom: 10px;
+    }
+    .banner-swiper .swiper-pagination-bullet {
+        width: 10px;
+        height: 3px;
+        display: inline-block;
+        border-radius: 0;
+        background: transparent;
+        opacity: 0.6;
+        margin: 0 10px;
+        background: #fff;
+    }
+    .banner-swiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0
+    }
+    .banner-swiper .swiper-pagination-bullet-active {
+        background: #FF943A;
+    }
+    .container {
+        width: 100%;
+    }
+    /* 主题风格手机竖屏显示 */
+    .cz-theme {
+        height: auto;
+    }
+    .cz-theme .wrap {
+        position: static;
+        /* z-index: 1; */
+        /* top: 0; */
+        /* -webkit-transform: translateY(-50%); */
+        /* transform: translateY(-50%); */
+    }
+    .cz-theme .item {
+        margin-bottom: 30px;
+    }
+    .section-content {
+        display: block!important;
+    }
+    .section {
+        padding-top: 30px;
+    }
+    .section .title {
+        margin: 10px 0 20px;
+        font-size: 50px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        line-height: 70px;
+    }
+    .title {
+        /* width:320px; */
+        /* height:136px; */
+        margin-top: 20px;
+        font-size: 50px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: rgba(232, 235, 237, 1);
+        line-height: 68px;
+        -webkit-text-stroke: 1px rgba(19, 42, 136, 1);
+        text-stroke: 1px rgba(19, 42, 136, 1);
+    }
+    .unique {
+        /* width:70px; */
+        /* height:25px; */
+        height: auto;
+        font-size: 18px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: rgba(19, 42, 136, 1);
+        line-height: 25px;
+        margin: 0 0 0;
+    }
+    /* 关于我们 */
+    .ynk-theme .unique {
+        margin: 20px 0 30px;
+    }
+    .theme-intro .des {
+        margin: 30px 0 40px;
+    }
+    .aboutus-more::after {
+        top: 6px;
+        right: 20px;
+        width: 50px;
+        height: 16px;
+    }
+    .aboutus-full {
+        margin-top: 0;
+    }
+    .aboutus-full .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .aboutus .intro-des,
+    .activity .activity-left .name {
+        line-height: 35px;
+    }
+    .aboutus .intro-des {
+        /* width:341px; */
+        /* height:152px; */
+        font-size: 18px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(17, 17, 17, 1);
+        line-height: 38px;
+    }
+    .play-btn {
+        width: 70px;
+        height: 70px;
+    }
+    .look-btn {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-top: 30px;
+        width: 220px;
+        height: 50px;
+        /* background: #fff; */
+        border: 1px solid rgba(19, 42, 136, 1);
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(19, 42, 136, 1);
+        line-height: 20px;
+    }
+    .look-btn .arrow-img {
+        width: 50px;
+        height: 18px;
+        margin-left: 39px;
+    }
+    .activity .activity-left {
+        padding-right: 15px;
+        padding-top: 0;
+    }
+    .activity .activity-left .des {
+        /* line-height: 26px; */
+        margin-bottom: 20px;
+        /* width:341px; */
+        /* height:216px; */
+        font-size: 16px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(19, 42, 136, 1);
+        line-height: 36px;
+    }
+    .activity .activity-right {
+        margin-top: 30px;
+    }
+    .font-20 {
+        font-size: 14px;
+    }
+    .font-54 {
+        font-size: 26px;
+    }
+    .font-28 {
+        font-size: 22px;
+    }
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+/* 平板 */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* ... */
+    .mt-120 {
+        margin-top: .4rem;
+    }
+    /* 主题风格手机竖屏显示 */
+    .cz-theme {
+        height: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .cz-theme .wrap {
+        position: static;
+        /* z-index: 1; */
+        /* top: 0; */
+        /* -webkit-transform: translateY(-50%); */
+        /* transform: translateY(-50%); */
+    }
+    .cz-theme .item {
+        margin-bottom: 30px;
+    }
+    /* 关于我们 */
+    .aboutus .intro-des,
+    .activity .activity-left .name {
+        line-height: 54px;
+    }
+    .aboutus .intro-des,
+    .activity .activity-left .name {
+        line-height: 35px;
+    }
+    .aboutus .intro-des {
+        font-size: 18px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(17, 17, 17, 1);
+        line-height: 38px;
+    }
+    .play-btn {
+        width: 70px;
+        height: 70px;
+    }
+    .look-btn {
+        margin-top: 0.6rem;
+    }
+    .activity .activity-left {
+        padding-top: 0;
+    }
+    .activity .activity-left .des {
+        /* margin-bottom: 20px; */
+        margin: .3rem 0 .4rem;
+        font-size: 16px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(19, 42, 136, 1);
+        line-height: 30px;
+    }
+    .font-20 {
+        font-size: 14px;
+    }
+    .font-54 {
+        font-size: 26px;
+    }
+    .font-28 {
+        font-size: 22px;
+    }
+    .activity-right {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* 中等屏幕 */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* .container {
+        width: 970px;
+    } */
+    .mt-120 {
+        margin-top: 1rem;
+    }
+    .font-20 {
+        font-size: 16px;
+    }
+    .font-54 {
+        font-size: 40px;
+    }
+    /* 活动 */
+    .activity .activity-left {
+        padding-top: 0;
+    }
+    .activity .activity-left .des {
+        /* margin-bottom: 20px; */
+        margin: .3rem 0 .4rem;
+        font-size: 16px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(19, 42, 136, 1);
+        line-height: 30px;
+    }
+}
+
+
+/* 大屏幕 */
+
+@media (min-width: 1200px) {
+    /* .container {
+        width: 1170px;
+    } */
+    .aboutus-more::after {
+        right: -70px;
+    }
+}
